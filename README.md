@@ -16,14 +16,6 @@ This project provides various examples of how to integrate the Conversational An
 - Embedded Looker Dashboard Integration: Demonstrates how to use the API alongside an embedded Looker dashboard and share filter context.
 - Multimodal Conversation with Gemini Live API: Illustrates an advanced use case, combining the Conversational Analytics API with the [Gemini Live API](https://cloud.google.com/vertex-ai/generative-ai/docs/live-api) for a multimodal conversational experience.
 
-### [Conversational Analytics API with ADK](/ca-api-adk/README.md)
-
-This project provides an examples of how to use the Conversational Analytics API with ADK. The demo includes:
-
-- A root agent that handles the sub agents.
-- An agent that uses a tool to generate insights using the CA API.
-- A visualization agent that visualizes the results using a Vertex AI Code Interpreter extension and returns the plot.
-
 ### [Streaming: Conversational Analytics API with ADK](/ca-api-adk-streaming/README.md)
 
 This project provides an example of how to use streaming with the Conversational Analytics API and ADK. The demo includes:
@@ -48,3 +40,13 @@ This project provides a comprehensive platform for monitoring and evaluating Gem
 - Trace Capture: Provides detailed visibility into agent execution steps and tool calls.
 - Assertion Engine: Automates the validation of agent responses using structured assertions.
 - Diagnostic UI: Offers high-density tables and comparison dashboards for deep-dive analysis.
+
+### [Looker Conversational Analytics API Demo](/looker-api-ca-demo/README.md)
+
+A comprehensive reference implementation and boilerplate for building AI-powered conversational data exploration interfaces using the Looker SDK to connect to Conversational Analytics.
+
+- Natural Language Data Exploration: Enables direct user interaction with Looker-governed data agents.
+- Dynamic Visualization: Real-time rendering of charts and tabular data within an optimized "Insight Workspace."
+- Robust Authentication: Supports both Looker Service Account and User OAuth 2.0 (PKCE) with automatic token refresh.
+- Stateful Conversations: Demonstrates session persistence and history management across multiple interaction turns.
+- Developer-Centric UX: Includes real-time streaming logs for Looker API calls, Gemini "thought" process visibility, and multi-agent discovery.
